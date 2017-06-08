@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'omniauth/outreach/version'
+require 'omniauth-outreach/outreach/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "omniauth-outreach"
@@ -32,9 +32,9 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency "bundler", "~> 1.14"
   gem.add_development_dependency "rake", "~> 10.0"
-  gem.add_development_dependency "rgem", "~> 3.0"
+  #gem.add_development_dependency "rgem", "~> 3.0"
 
   gem.add_dependency "oauth2",     "~> 1.0"
   gem.add_dependency "omniauth",   "~> 1.2"
-  
+
 end
